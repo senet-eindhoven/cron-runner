@@ -1,0 +1,42 @@
+{
+  "name": "senet-eindhoven/cron-runner",
+  "description": "Sservice cron runnner",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Pim Jansen",
+      "email": "pjansen@senet.nl"
+    }
+  ],
+  "require": {
+    "php": "^7.4|^8.0",
+    "psr/log": "^1.1",
+    "dragonmantank/cron-expression": "^2.3",
+    "symfony/process": "^5.0"
+  },
+  "require-dev": {
+    "bamarni/composer-bin-plugin": "^1.4.1",
+    "phpunit/phpunit": "^9.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Senet\\Cron\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Senet\\Cron\\": "tests/"
+    }
+  },
+  "config": {
+    "allow-plugins": {
+      "bamarni/composer-bin-plugin": true
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-main": "v1.0-dev"
+    }
+  }
+}

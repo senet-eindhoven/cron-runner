@@ -1,0 +1,7 @@
+/reports
+/.idea
+/vendor
+/.phpunit.result.cache
+/composer.lock
+/vendor-bin/**/vendor
+/.build
