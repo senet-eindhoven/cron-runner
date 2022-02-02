@@ -1,6 +1,6 @@
 {
   "name": "senet-eindhoven/cron-runner",
-  "description": "Sservice cron runnner",
+  "description": "Service cron runnner",
   "type": "library",
   "license": "MIT",
   "authors": [
