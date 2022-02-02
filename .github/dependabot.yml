@@ -1,0 +1,27 @@
+version: 2
+
+updates:
+  - commit-message:
+      include: "scope"
+      prefix: "composer"
+    directory: "/vendor-bin/phpcs"
+    labels:
+      - "dependency"
+    open-pull-requests-limit: 10
+    package-ecosystem: "composer"
+    schedule:
+      interval: "monthly"
+    versioning-strategy: "increase"
+
+  - commit-message:
+      include: "scope"
+      prefix: "composer"
+    directory: "/vendor-bin/phpstan"
+    labels:
+      - "dependency"
+    open-pull-requests-limit: 10
+    package-ecosystem: "composer"
+    schedule:
+      interval: "monthly"
+    versioning-strategy: "increase"
+
