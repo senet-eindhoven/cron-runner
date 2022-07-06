@@ -29,14 +29,7 @@
     <rule ref="SlevomatCodingStandard.Classes.ModernClassNameReference" />
     <rule ref="SlevomatCodingStandard.Classes.ParentCallSpacing" />
     <rule ref="SlevomatCodingStandard.Classes.PropertySpacing" />
-    <rule ref="SlevomatCodingStandard.ControlStructures.JumpStatementsSpacing">
-        <properties>
-            <property name="jumpStatements" type="array">
-                <element value="continue"/>
-                <element value="return"/>
-            </property>
-        </properties>
-    </rule>
+
     <rule ref="SlevomatCodingStandard.Functions.DisallowEmptyFunction" />
     <rule ref="SlevomatCodingStandard.Namespaces.AlphabeticallySortedUses" />
     <rule ref="SlevomatCodingStandard.PHP.ShortList" />
