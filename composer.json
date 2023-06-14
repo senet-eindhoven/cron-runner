@@ -10,8 +10,8 @@
     }
   ],
   "require": {
-    "php": "^7.4|^8.0",
-    "psr/log": "^1.1",
+    "php": "^7.4||^8.0",
+    "psr/log": "^1.0||^2.0||^3.0",
     "dragonmantank/cron-expression": "^2.3",
     "symfony/process": "^5.0"
   },
